@@ -1,0 +1,20 @@
+.counter {
+  display: flex;
+  .add, .minus, .number {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .add, .minus {
+    border: 1px solid #1E9FD2;
+  }
+  .number {
+    border: 1px solid #BFBFBF;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
