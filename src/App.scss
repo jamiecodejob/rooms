@@ -1,0 +1,65 @@
+.App {
+  // text-align: center;
+  width: 375px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #fff;
+  font-family: Noto Sans;
+  border-radius: 4px;
+  .title {
+    font-size: 20px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  .room {
+    .title {
+      font-size: 16px;
+      height: 24px;
+      line-height: 24px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+
+    .item {
+      display: flex;
+      margin-bottom: 16px;
+    }
+    .description {
+      flex-basis: 70%;
+    }
+    // .counter {
+    //   display: flex;
+    // }
+    // .add, .minus, .number {
+    //   width: 40px;
+    //   height: 40px;
+    //   border-radius: 4px;
+    //   cursor: pointer;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    // }
+    // .add, .minus {
+    //   border: 1px solid #1E9FD2;
+    // }
+    // .number {
+    //   border: 1px solid #BFBFBF;
+    //   margin-left: 8px;
+    //   margin-right: 8px;
+    // }
+    .subTitle {
+      font-size: 14px;
+      height: 20px;
+      line-height: 20px;
+    }
+    .age {
+      font-size: 14px;
+      height: 20px;
+      line-height: 20px;
+      color: #8C8C8C;
+    }
+  }
+}
+
